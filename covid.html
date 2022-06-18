@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Covid Data</title>
+
+		<link />
+		<!-- font  link  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+		<!-- css link -->
+		<link rel="stylesheet" href="./covid.css" />
+		<!--icon link-->
+		<link rel="stylesheet" href="https://kit.fontawesome.com/2c72b34d4e.js" />
+		<link rel="stylesheet" href="./iconfont.css">
+		<script src="https://d3js.org/d3.v7.js"></script>
+	</head>
+	<body>
+		<!-- home header  starts  -->
+
+		<header class="header">
+			<a href="#" class="lg"><i class="fa-solid fa-virus-covid"></i> covid-19 </a>
+
+
+			<div class="icons">
+				
+				<a href="#h-section1"><i class="fa-solid fa-map"></i></a>
+				<a href="#h-section2"><i class="fa-solid fa-chart-column"></i></a>
+				<a href="#h-section3"><i class="fa-solid fa-chart-scatter-bubble">&#xf110</i></a>
+				
+			</div>
+
+
+		</header>
+
+		</style>
+
+
+		<!-- header  ends -->
+
+		<!-- h-section starts  -->
+
+		<section class="h-section" id="h-section">
+			<div class="text">
+				<h1>View the latest <strong>covid </strong> data updates</h1>
+				<p>
+					Reasonable planning for future trips by reviewing the latest world covid data
+				</p>
+				<a href="#h-section1" class="btn">Start now</a>
+			</div>
+		</section>
+
+		<!-- h-section ends -->
+
+
+		<!--add Add a  map visualization-->
+		<section class="h-section" id="h-section1">
+			<div class="text">
+				<h1>The <strong>World</strong> Covid Map</h1>
+			</div>
+			<div>
+				<svg id="map"></svg>
+			</div>
+		</section>
+
+
+
+
+		<!--add Add a  bar chart visualization-->
+
+		<section class="h-section" id="h-section2">
+			<div class="text">
+				<h1>The <strong>Top 6 </strong>Confirmed Country </h1>
+			</div>
+			<div>
+				<svg id="bar"></svg>
+			</div>
+		</section>
+
+
+
+		<!--add Add a  bubble visualization-->
+
+		<section class="h-section" id="h-section3">
+			<div class="text">
+				<h1><strong>COVID-19 </strong>Bubble Chart</h1>
+			</div>
+			<div>
+				<svg id="bubble"></svg>
+			</div>
+		</section>
+
+		<div id="tip" class="tip"></div>
+		<script src="https://kit.fontawesome.com/2c72b34d4e.js" crossorigin="anonymous"></script>
+		<script src="./index.js"></script>
+	</body>
+	
